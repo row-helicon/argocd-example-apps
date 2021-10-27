@@ -16,7 +16,7 @@ spec:
       - backend:
           serviceName: guestbook-server
           servicePort: https
-    host: argocd.local
+    host: guestbook.local
   tls:
   - secretName: https-cert
     hosts:
