@@ -8,14 +8,14 @@ metadata:
     cert-manager.io/cluster-issuer: test-selfsigned
     nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
     nginx.ingress.kubernetes.io/ssl-passthrough: "true"
-    nginx.ingress.kubernetes.io/backend-protocol: "HTTP"
+    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
 spec:
   rules:
   - http:
       paths:
       - backend:
           serviceName: guestbook-server
-          servicePort: http
+          servicePort: https
     host: guestbook.local
   tls:
   - secretName: https-cert
