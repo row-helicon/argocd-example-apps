@@ -15,7 +15,7 @@ spec:
       paths:
       - backend:
           serviceName: guestbook-server
-          servicePort: https
+          servicePort: http
     host: guestbook.local
   tls:
   - secretName: https-cert
