@@ -20,4 +20,4 @@ spec:
   tls:
   - secretName: https-cert
     hosts:
-    - guestbook.local
+    - guestbook.relcare.hasops.com
