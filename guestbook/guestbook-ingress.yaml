@@ -16,7 +16,7 @@ spec:
       - backend:
           serviceName: guestbook-ui
           servicePort: 80
-    host: guestbook.local
+    host: guestbook.relcare.hasops.com
   tls:
   - secretName: https-cert
     hosts:
