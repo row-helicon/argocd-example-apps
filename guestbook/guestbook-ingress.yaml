@@ -16,8 +16,8 @@ spec:
       - backend:
           serviceName: guestbook-ui
           servicePort: 80
-    host: guestbook.relcare.hasops.com
+    host: bajskorv.relcare.hasops.com
   tls:
   - secretName: https-cert
     hosts:
-    - guestbook.relcare.hasops.com
+    - bajskorv.relcare.hasops.com
